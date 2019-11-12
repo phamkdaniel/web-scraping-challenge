@@ -1,0 +1,11 @@
+VSCode
+.vscode
+
+#pycache
+__pycache__
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# personal config file
+config.py
