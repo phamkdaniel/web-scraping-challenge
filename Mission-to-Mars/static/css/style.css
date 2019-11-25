@@ -1,0 +1,25 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto)
+}
+
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-header {
+    font-weight: bold;
+}
+
+.card-img {
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+}
+
+.hemisphere-header {
+    text-align: center;
+}
